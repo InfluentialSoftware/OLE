@@ -14,10 +14,9 @@
         }
     ],
     "require":{
-        "php":">=4.0.0",
-        "pear/PEAR":">=1.5.4"
+        "php": ">=4.0.0"
     },
-    "autoload":{
-        "classmap":[ "OLE/OLE.php" ]
+    "autoload": {
+        "psr-0": { "OLE": "" }
     }
 }
