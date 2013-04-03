@@ -1,0 +1,19 @@
+{
+    "name": "pear/OLE",
+    "type": "library",
+    "description": "Package for reading and writing OLE containers",
+    "keywords": [ "" ],
+    "homepage": "http://pear.php.net/package/OLE/",
+    "license": "BSD",
+    "authors": [
+        {
+            "name": "Carsten Schmitz",
+        },
+        {
+            "name": "Xavier Noguer",
+        }
+    ],
+    "require": {
+        "php": ">=4.0.0"
+    }
+}
