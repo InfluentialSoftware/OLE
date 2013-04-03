@@ -1,11 +1,11 @@
 {
-    "name": "pear/OLE",
-    "type": "library",
+    "name": "pear/ole",
+    "type":"library",
     "description": "Package for reading and writing OLE containers",
-    "keywords": [ "" ],
-    "homepage": "http://pear.php.net/package/OLE/",
-    "license": "BSD",
-    "authors": [
+    "keywords":[ "OLE" ],
+    "homepage":"https://github.com/pear/OLE",
+    "license":"LGPL",
+    "authors":[
         {
             "name": "Carsten Schmitz"
         },
@@ -13,7 +13,11 @@
             "name": "Xavier Noguer"
         }
     ],
-    "require": {
-        "php": ">=4.0.0"
+    "require":{
+        "php":">=4.0.0",
+        "pear/PEAR":">=1.5.4"
+    },
+    "autoload":{
+        "classmap":[ "OLE/OLE.php" ]
     }
 }
