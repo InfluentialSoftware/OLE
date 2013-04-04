@@ -17,6 +17,9 @@
         "php": ">=4.0.0"
     },
     "autoload": {
+        "psr-0": {
+            "OLE": "./",
+        }
 		"classmap":[
 			"OLE.php",
 			"OLE/PPS.php",
