@@ -19,7 +19,7 @@
     "autoload": {
         "psr-0": {
             "OLE": "./",
-        }
+        },
 		"classmap":[
 			"OLE.php",
 			"OLE/PPS.php",
