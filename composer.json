@@ -18,14 +18,7 @@
     },
     "autoload": {
         "psr-0": {
-            "OLE": "./"
-        },
-		"classmap":[
-			"OLE.php",
-			"OLE/PPS.php",
-			"OLE/ChainedBlockStream.php",
-			"OLE/PPS/Root.php",
-			"OLE/PPS/File.php"
-		]
+            "OLE": ""
+        }
     }
 }
